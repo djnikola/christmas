@@ -57,9 +57,13 @@ To run the tests type:
 ```
 This will execute all tests and provide an output.
 
+## Simplifications
+
+Instead of user input the program will print all shapes in all sizes.
+
 ## Issues 
 
-It seems there is an error in the request for star shape.
+It seems there is an error in the request for the large Star shape.
 The first three lines of small Star start as:
 ```
     +
