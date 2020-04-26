@@ -8,9 +8,9 @@ sizes so that I can decorate my office nicely for Christmas.
 The designer has provided the following designs for the shapes: Tree and Star
 
 The following sizes should be available:
-● S (small): 5 lines height
-● M (medium): 7 lines height
-● L (large): 11 lines height
+- S (small): 5 lines height
+- M (medium): 7 lines height
+- L (large): 11 lines height
 If the user does not provide a size, pick a random size.
 It should be possible to output the shapes both on the command line and in a browser.
 
@@ -22,7 +22,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Go to your web directory and type:
 ```
-git clone https://github.com/djnikola/christmas.git
+git clone https://github.com/djnikola/christmas.git .
 ```
 
 then go into christmas/ folder:
