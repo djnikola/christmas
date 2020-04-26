@@ -25,16 +25,13 @@ Go to your web directory and type:
 ```
 git clone https://github.com/djnikola/christmas.git 
 ```
-
-then go into christmas/ folder:
-```
-cd christmas/
-```
+This will create a christmas folder and it will put the code in it.
 
 then run:
 ```
 composer install
 ```
+
 ### Running
 
 #### Using Web broweser
