@@ -29,7 +29,8 @@ This will create a christmas folder and it will put the code in it.
 
 then run:
 ```
-composer install
+<patch_to_project>$cd christmas
+<patch_to_project>$composer install
 ```
 This will install all dependeces. Currently only PHP unit.
 
