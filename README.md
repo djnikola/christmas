@@ -11,6 +11,7 @@ The following sizes should be available:
 - S (small): 5 lines height
 - M (medium): 7 lines height
 - L (large): 11 lines height
+
 If the user does not provide a size, pick a random size.
 It should be possible to output the shapes both on the command line and in a browser.
 
@@ -34,8 +35,21 @@ then run:
 ```
 composer install
 ```
+### Running
 
-## Running the tests
+#### Using Web broweser
+
+In your broser type:
+```
+http://<patch_to_project>/
+```
+
+#### Using Command Line
+
+Go to the project path and type:
+```
+<patch_to_project>$php index.php
+```
 
 ### PHP Unit tests
 
