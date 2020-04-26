@@ -37,7 +37,7 @@ This will install all dependeces. Currently only PHP unit.
 
 #### Using Web broweser
 
-In your broser type:
+In your browser type:
 ```
 http://<patch_to_project>/
 ```
@@ -56,6 +56,39 @@ To run the tests type:
 <patch_to_project>$./vendor/bin/phpunit tests/
 ```
 This will execute all tests and provide an output.
+
+## Issues 
+
+It seems there is an error in the request for star shape.
+The first three lines of small Star start as:
+```
+    +
+    X
+ +XXXXX+
+```
+The first three lines of medium Star shape start as:
+```
+    +
+    X
+  XXXXX
+```
+
+but the first three lines of large Star shape start as:
+
+```
+    +
+    X
+   XXX
+```
+
+To me it seems it should be like this:
+
+```
+    +
+    X
+  XXXXX
+```
+The code is written in assumpstion 
 
 ## Documentation 
 
