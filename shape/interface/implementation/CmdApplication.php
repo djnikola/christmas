@@ -18,21 +18,21 @@ class CmdApplication extends AbstractApplication {
     /**
      * {@inheritDoc}
      */
-    public function drawLine( string $line ) : void {
+    public function drawLine( string $line ) {
         echo $line;
     }
 
     /**
      * {@inheritDoc}
      */
-    public function printHeader() : void {
+    public function printHeader() {
         echo '******* Header *******' . $this->eol;
     }
 
     /**
      * {@inheritDoc}
      */
-    public function printFooter() : void{
+    public function printFooter() {
         echo '******* Footer *******' . $this->eol;
     }
 }

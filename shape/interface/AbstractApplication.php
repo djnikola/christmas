@@ -41,13 +41,13 @@ abstract class AbstractApplication implements ApplicationInterface {
     /**
      * {@inheritDoc}
      */
-    public function printHeader() : void {
+    public function printHeader() {
     }
 
     /**
      * {@inheritDoc}
      */
-    public function printFooter() : void {
+    public function printFooter() {
     }
 }
 

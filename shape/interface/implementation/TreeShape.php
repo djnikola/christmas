@@ -8,7 +8,7 @@ class TreeShape extends AbstractShape {
      * @param ApplicationInterface $application
      * @return void
      */
-    function draw( ApplicationInterface $application ) : void {
+    function draw( ApplicationInterface $application ) {
         //maximas line width.
         $max_line_width = ( $this->getSize() -1 )* 2 - 1;
         

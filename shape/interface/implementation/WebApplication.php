@@ -18,21 +18,21 @@ class WebApplication extends AbstractApplication {
     /**
      * {@inheritDoc}
      */
-    public function drawLine( string $line ) : void {
+    public function drawLine( string $line ) {
         echo $line;
     }
 
     /**
      * {@inheritDoc}
      */
-    public function printHeader() : void {
+    public function printHeader() {
         echo '<head><body>';
     }
 
     /**
      * {@inheritDoc}
      */
-    public function printFooter() : void {
+    public function printFooter() {
         echo '</body></head>';
     }
 }

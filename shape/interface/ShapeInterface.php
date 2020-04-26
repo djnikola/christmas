@@ -8,6 +8,6 @@ interface ShapeInterface {
      * @param ApplicationInterface $application
      * @return void
      */
-    function draw( ApplicationInterface $application ) : void;
+    function draw( ApplicationInterface $application );
 
 }

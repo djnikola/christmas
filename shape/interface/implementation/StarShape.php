@@ -9,7 +9,7 @@ class StarShape extends AbstractShape {
      * @param ApplicationInterface $application
      * @return void
      */
-    function draw( ApplicationInterface $application ) : void {
+    function draw( ApplicationInterface $application ) {
         //number of loops.
         $loop_number = $this->getSize() - 4;
         
