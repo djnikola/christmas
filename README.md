@@ -31,6 +31,7 @@ then run:
 ```
 composer install
 ```
+This will install all dependeces. Currently only PHP unit.
 
 ### Running
 
@@ -50,9 +51,11 @@ Go to the project path and type:
 
 ### PHP Unit tests
 
+To run the tests type:
 ```
-./vendor/bin/phpunit tests/
+<patch_to_project>$./vendor/bin/phpunit tests/
 ```
+This will execute all tests and provide an output.
 
 ## Documentation 
 
