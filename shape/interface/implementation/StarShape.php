@@ -1,13 +1,14 @@
 <?php 
 
-
+/**
+ * Class extends AbstractShape abstract class and defines Star shape object.
+ * 
+ * @author Nikola
+ */
 class StarShape extends AbstractShape {
     
     /**
-     * Shape draws it's self in the applucation.
-     * 
-     * @param ApplicationInterface $application
-     * @return void
+     * {@inheritdoc}
      */
     function draw( ApplicationInterface $application ) {
         //number of loops.

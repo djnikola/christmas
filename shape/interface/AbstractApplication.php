@@ -1,6 +1,12 @@
 <?php
 require_once 'ApplicationInterface.php';
 
+/**
+ * Class implements ApplicationInterface interface.
+ * It implements all functions that are common for every application.
+ * 
+ * @author Nikola
+ */
 abstract class AbstractApplication implements ApplicationInterface {
 
     /**

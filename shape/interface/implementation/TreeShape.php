@@ -1,12 +1,13 @@
 <?php 
-
+/**
+ * Class extends AbstractShape abstract class and defines Three shape object.
+ * 
+ * @author Nikola
+ */
 class TreeShape extends AbstractShape {
 
     /**
-     * Shape draws it's self in the applucation.
-     * 
-     * @param ApplicationInterface $application
-     * @return void
+     * {@inheritdoc}
      */
     function draw( ApplicationInterface $application ) {
         //maximas line width.

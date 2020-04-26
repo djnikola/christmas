@@ -1,7 +1,8 @@
 <?php 
 
 /**
- * Class defines Command Line application.
+ * Class extends AbstractApplication abstract class and defines Command line application object.
+ * 
  * @author Nikola
  */
 class CmdApplication extends AbstractApplication {

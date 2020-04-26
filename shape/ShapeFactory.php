@@ -4,11 +4,18 @@ require_once 'interface/AbstractShape.php';
 require_once 'interface/implementation/TreeShape.php';
 require_once 'interface/implementation/StarShape.php';
 
-
+/**
+ * Creates an Shape object based on provided parametar.
+ * 
+ * @author Nikola 
+ */
 class ShapeFactory {
 
     /**
      * Defines all shapes.
+     * 
+     * NOTE: Please note that class file and class name that are implementing Shape interface must follow the naming convension:
+     * The item from the array + 'Shape' string.
      * 
      * @var array
      */
@@ -30,7 +37,7 @@ class ShapeFactory {
     ];
 
     /**
-     * Return's all shape's sizes.
+     * Returns all shape's sizes.
      * 
      * @return array
      */

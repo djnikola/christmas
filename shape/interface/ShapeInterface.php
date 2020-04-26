@@ -1,5 +1,11 @@
 <?php
-
+/**
+ * Interface of Shape object.
+ * Every Shape object knows how to draw it's self in the provided application.
+ * 
+ * 
+ * @author Nikola Dordevic
+ */
 interface ShapeInterface {
 
     /**

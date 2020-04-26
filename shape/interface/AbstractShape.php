@@ -1,6 +1,11 @@
 <?php
 require_once 'ShapeInterface.php';
-
+/**
+ * Class implements ApplicationInterface interface.
+ * It implements all functions that are common for every shape.
+ * 
+ * @author Nikola
+ */
 abstract class AbstractShape implements ShapeInterface {
 
     /**

@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * Interface of Application object.
+ * 
+ * @author Nikola Dordevic
+ */
 interface ApplicationInterface {
 
     /**

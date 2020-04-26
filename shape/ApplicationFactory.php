@@ -3,12 +3,17 @@
 require_once 'interface/AbstractApplication.php';
 require_once 'interface/implementation/CmdApplication.php';
 require_once 'interface/implementation/WebApplication.php';
-
+/**
+ * Creates an Application object based on provided parametar.
+ * 
+ * @author Nikola 
+ */
 class ApplicationFactory {
 
     /**
      * Array of all available applications. 
-     * Please note that name of application must match naming convention of a class that implements it. 
+     * NOTE: Please note that class file and class name that are implementing Application interface must follow the naming convension:
+     * The item from the array + 'Application' string.
      * 
      * @var array
      */
