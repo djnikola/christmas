@@ -23,7 +23,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Go to your web directory and type:
 ```
-git clone https://github.com/djnikola/christmas.git .
+git clone https://github.com/djnikola/christmas.git 
 ```
 
 then go into christmas/ folder:
