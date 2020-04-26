@@ -81,14 +81,14 @@ but the first three lines of large Star shape start as:
    XXX
 ```
 
-To me it seems it should be like this:
+to me it seems it should be like this:
 
 ```
     +
     X
   XXXXX
 ```
-The code is written in assumpstion 
+The code is written based on this assumption.
 
 ## Documentation 
 
